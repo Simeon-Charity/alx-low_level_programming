@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * jack_bauer - Prints minute of every day
+ * jack_bauer - Prints minute of every day from 00:00 to 23:59
  * Return: Always 0.
  */
 void jack_bauer(void)
 {
 	int hour, minute;
-	for (hour = '00'; hour <= '23'; hour++)
+	for (hour = '0'; hour <= '23'; hour++)
 	{
-		for (minute = '00'; minute <= '59'; minute++)
+		for (minute = '0'; minute <= '59'; minute++)
 		{
 			_putchar((hour / 10) + '0');
 			_putchar((hour % 10) + '0');
