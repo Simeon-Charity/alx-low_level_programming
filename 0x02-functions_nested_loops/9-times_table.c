@@ -7,9 +7,8 @@
  */
 void times_table(void)
 {
-	int times_table = n * 9;
 	if (n = 0; n <= 12; n++)
-		times_table = 9 * n;
+	int times_table = n * 9;
 	_putchar(times_table + '0');
 	return (times_table);
 }
