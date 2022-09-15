@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - Print the numbers from n to 98
@@ -7,6 +8,6 @@
  */
 void print_to_98(int n)
 {
-	if (n = 0; n <= 98; n++)
-	return (n ',');
+	n <= 98
+	printf("%d\n", n++);
 }
