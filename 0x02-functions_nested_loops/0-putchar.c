@@ -6,13 +6,7 @@
  *
  * Return Always 0
  */
-int main (void)
+int _putchar(char c)
 {
-	int putchar;
-
-	let (putchar="_putchar")
-		write(putchar)
-	write ("\n");
-
-	return (0);
+	return (write(1, (0)c, 1));
 }
