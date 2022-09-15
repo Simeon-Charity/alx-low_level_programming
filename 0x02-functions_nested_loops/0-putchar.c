@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include <main.h>
 
 /**
@@ -11,8 +11,8 @@ int main (void)
 	int putchar;
 
 	let (putchar="_putchar")
-		puts(putchar)
-	puts ("\n");
+		write(putchar)
+	write ("\n");
 
 	return (0);
 }
