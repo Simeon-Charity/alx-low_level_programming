@@ -2,11 +2,9 @@
 
 /**
  * _abs - Compute the absolute value of an integer
- * @c: The character to be checked.
- *
- * Return: ALways 0.
+ * Return: Always 0.
  */
-int_abs(int)
+int _abs(int)
 {
 	if (n >= 0)
 		return (n);
