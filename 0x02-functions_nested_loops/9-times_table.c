@@ -2,7 +2,6 @@
 
 /**
  * times_table - pritns the 9 times tables
- * @n: as the integer
  * Return: Always 0.
  */
 void times_table(void)
