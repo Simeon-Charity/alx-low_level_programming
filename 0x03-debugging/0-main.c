@@ -2,7 +2,7 @@
 
 /**
 * main - tests function that prints if integer is positive or negative
-* @positive_or_negative: to print out 0
+* positive_or_negative: to print out 0
 * Return: 0
 */
 int main(void)
